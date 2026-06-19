@@ -1,0 +1,128 @@
+export type DataColumn = {
+  label: string;
+  items: string[];
+};
+
+// Numbered column lists for the homepage "Data Trends by Trend Hunter AI" block
+export const dataColumns: DataColumn[] = [
+  {
+    label: "Insights",
+    items: [
+      "Ambient Intelligence",
+      "Conscious Continuity",
+      "Participatory Culture",
+      "Sensory Retail",
+      "Recovery Economy",
+      "Adaptive Living",
+      "Hyper-Local Commerce",
+      "Synthetic Nostalgia",
+      "Circular Design",
+      "Trust Infrastructure",
+    ],
+  },
+  {
+    label: "Ideas",
+    items: [
+      "Autonomous Inventory Robots",
+      "Sodium-Ion Battery Systems",
+      "Balcony Solar Kits",
+      "Color-Shifting Textiles",
+      "Functional Mocktail Bars",
+      "Sleep Tourism Retreats",
+      "Edible Cutlery Sets",
+      "Biophilic Office Pods",
+      "Micro-Fulfillment Hubs",
+      "Scent-Branded Pop-Ups",
+    ],
+  },
+  {
+    label: "Topics",
+    items: [
+      "AI",
+      "Sustainability",
+      "Wellness",
+      "Retail Tech",
+      "Mobility",
+      "Personalization",
+      "Automation",
+      "Creator Economy",
+      "Spatial Computing",
+      "Circularity",
+    ],
+  },
+  {
+    label: "Places",
+    items: [
+      "Toronto",
+      "New York",
+      "Tokyo",
+      "London",
+      "Singapore",
+      "Dubai",
+      "Berlin",
+      "Seoul",
+      "Copenhagen",
+      "San Francisco",
+    ],
+  },
+  {
+    label: "Events",
+    items: [
+      "Future Festival",
+      "World Cup",
+      "CES",
+      "Paris Fashion Week",
+      "SXSW",
+      "Met Gala",
+      "Olympics",
+      "Cannes Lions",
+      "Art Basel",
+      "Davos",
+    ],
+  },
+  {
+    label: "Products",
+    items: [
+      "iPhone",
+      "Tesla",
+      "Air Jordan",
+      "PlayStation",
+      "AirPods",
+      "Switch",
+      "Dyson",
+      "Stanley Cup",
+      "Birkin",
+      "Lego Set",
+    ],
+  },
+  {
+    label: "People",
+    items: [
+      "Taylor Swift",
+      "David Beckham",
+      "Elon Musk",
+      "Beyoncé",
+      "Lionel Messi",
+      "Zendaya",
+      "LeBron James",
+      "Rihanna",
+      "Bad Bunny",
+      "Greta Gerwig",
+    ],
+  },
+  {
+    label: "Brands",
+    items: [
+      "Amazon",
+      "Nike",
+      "Apple",
+      "Google",
+      "LEGO",
+      "Netflix",
+      "Samsung",
+      "Starbucks",
+      "PepsiCo",
+      "Pikachu",
+    ],
+  },
+];
